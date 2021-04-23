@@ -1,0 +1,39 @@
+{
+    "Software": "lolMiner 1.26",
+    "Mining": {
+        "Algorithm": "Ethash"
+    },
+    "Stratum": {
+        "Current_Pool": "eu1.ethermine.org:5555",
+        "Current_User": "0xF6403152cAd46F2224046C9B9F523d690E41Bffd.worker-1",
+        "Average_Latency": 12.0
+    },
+    "Session": {
+        "Startup": 1619124576,
+        "Startup_String": "2021-04-22_20-49-36",
+        "Uptime": 1560,
+        "Last_Update": 1619126136,
+        "Active_GPUs": 1,
+        "Performance_Summary": 91.55,
+        "Performance_Unit": "mh\/s",
+        "Accepted": 35,
+        "Submitted": 35,
+        "TotalPower": 219.857
+    },
+    "GPUs": [
+        {
+            "Index": 0,
+            "Name": "NVIDIA GeForce RTX 3080",
+            "Performance": 91.55,
+            "Consumption (W)": 219.857,
+            "Fan Speed (%)": 88,
+            "Temp (deg C)": 47,
+            "Mem Temp (deg C)": 0,
+            "Session_Accepted": 35,
+            "Session_Submitted": 35,
+            "Session_HWErr": 0,
+            "Session_BestShare": 594262786537,
+            "PCIE_Address": "1:0"
+        }
+    ]
+}

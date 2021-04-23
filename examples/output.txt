@@ -1,0 +1,156 @@
+# HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 0
+go_gc_duration_seconds{quantile="0.25"} 0
+go_gc_duration_seconds{quantile="0.5"} 0
+go_gc_duration_seconds{quantile="0.75"} 0
+go_gc_duration_seconds{quantile="1"} 0
+go_gc_duration_seconds_sum 0
+go_gc_duration_seconds_count 0
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 7
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.16"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 826784
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 826784
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 4106
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 236
+# HELP go_memstats_gc_cpu_fraction The fraction of this program's available CPU time used by the GC since the program started.
+# TYPE go_memstats_gc_cpu_fraction gauge
+go_memstats_gc_cpu_fraction 0
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 3.999152e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 826784
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 6.5028096e+07
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 1.72032e+06
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 3857
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 6.4995328e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 6.6748416e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 0
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 4093
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 9600
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 16384
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 37672
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 49152
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 4.473924e+06
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 996950
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 360448
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 360448
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 7.2174608e+07
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 7
+# HELP lolminer_exporter_info Metadata about the exporter.
+# TYPE lolminer_exporter_info gauge
+lolminer_exporter_info{version="0.0.0-SNAPSHOT"} 1
+# HELP lolminer_gpu_fan_speed GPU fan speed (0-1).
+# TYPE lolminer_gpu_fan_speed gauge
+lolminer_gpu_fan_speed{gpu_index="0"} 0.96
+# HELP lolminer_gpu_info Metadata about a GPU.
+# TYPE lolminer_gpu_info gauge
+lolminer_gpu_info{gpu_index="0",name="NVIDIA GeForce RTX 3080",pcie_address="1:0"} 1
+# HELP lolminer_gpu_performance_mhps GPU performance (Mh/s).
+# TYPE lolminer_gpu_performance_mhps gauge
+lolminer_gpu_performance_mhps{gpu_index="0"} 91.52
+# HELP lolminer_gpu_power_watts GPU power usage (Watt).
+# TYPE lolminer_gpu_power_watts gauge
+lolminer_gpu_power_watts{gpu_index="0"} 219.831
+# HELP lolminer_gpu_session_accepted_shares_total Number of accepted shared for the GPU during the current session.
+# TYPE lolminer_gpu_session_accepted_shares_total counter
+lolminer_gpu_session_accepted_shares_total{gpu_index="0"} 1130
+# HELP lolminer_gpu_session_hardware_errors_total Number of hardware errors for the GPU during the current session.
+# TYPE lolminer_gpu_session_hardware_errors_total counter
+lolminer_gpu_session_hardware_errors_total{gpu_index="0"} 0
+# HELP lolminer_gpu_session_submitted_shares_total Number of submitted shared for the GPU during the current session.
+# TYPE lolminer_gpu_session_submitted_shares_total counter
+lolminer_gpu_session_submitted_shares_total{gpu_index="0"} 1130
+# HELP lolminer_gpu_temperature_celsius GPU temperature (deg. C).
+# TYPE lolminer_gpu_temperature_celsius gauge
+lolminer_gpu_temperature_celsius{gpu_index="0"} 47
+# HELP lolminer_mining_info Metadata about mining.
+# TYPE lolminer_mining_info gauge
+lolminer_mining_info{algorithm="Ethash"} 1
+# HELP lolminer_session_accepted_shares_total Number of accepted shares for this session.
+# TYPE lolminer_session_accepted_shares_total counter
+lolminer_session_accepted_shares_total{session_startup_time="2021-04-22_20-49-36"} 1130
+# HELP lolminer_session_active_gpus Number of active GPUs.
+# TYPE lolminer_session_active_gpus gauge
+lolminer_session_active_gpus{session_startup_time="2021-04-22_20-49-36"} 1
+# HELP lolminer_session_info Metadata about the session.
+# TYPE lolminer_session_info gauge
+lolminer_session_info{session_startup_time="2021-04-22_20-49-36"} 1
+# HELP lolminer_session_last_update_seconds_timestamp Timestamp for last update.
+# TYPE lolminer_session_last_update_seconds_timestamp gauge
+lolminer_session_last_update_seconds_timestamp{session_startup_time="2021-04-22_20-49-36"} 1.619172108e+09
+# HELP lolminer_session_performance_total_mhps Total current performance for the session (Mh/s).
+# TYPE lolminer_session_performance_total_mhps gauge
+lolminer_session_performance_total_mhps{session_startup_time="2021-04-22_20-49-36"} 91.52
+# HELP lolminer_session_power_total_watts Total current power usage for the session (Watt).
+# TYPE lolminer_session_power_total_watts gauge
+lolminer_session_power_total_watts{session_startup_time="2021-04-22_20-49-36"} 219.831
+# HELP lolminer_session_startup_seconds_timestamp Timestamp for the start of the session.
+# TYPE lolminer_session_startup_seconds_timestamp gauge
+lolminer_session_startup_seconds_timestamp{session_startup_time="2021-04-22_20-49-36"} 1.619124576e+09
+# HELP lolminer_session_submitted_shares_total Number of submitted shares for this session.
+# TYPE lolminer_session_submitted_shares_total counter
+lolminer_session_submitted_shares_total{session_startup_time="2021-04-22_20-49-36"} 1130
+# HELP lolminer_session_uptime_seconds Uptime for the session (s).
+# TYPE lolminer_session_uptime_seconds gauge
+lolminer_session_uptime_seconds{session_startup_time="2021-04-22_20-49-36"} 47531
+# HELP lolminer_software_info Metadata about the software.
+# TYPE lolminer_software_info gauge
+lolminer_software_info{software="lolMiner 1.26"} 1
+# HELP lolminer_stratum_average_latency_seconds Average latency for the stratum (s).
+# TYPE lolminer_stratum_average_latency_seconds gauge
+lolminer_stratum_average_latency_seconds{stratum_pool="eu1.ethermine.org:5555",stratum_user="0xF6403152cAd46F2224046C9B9F523d690E41Bffd.worker-1"} 0.016399999999999998
+# HELP lolminer_stratum_info Metadata about the stratum.
+# TYPE lolminer_stratum_info gauge
+lolminer_stratum_info{stratum_pool="eu1.ethermine.org:5555",stratum_user="0xF6403152cAd46F2224046C9B9F523d690E41Bffd.worker-1"} 1
