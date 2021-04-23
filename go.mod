@@ -1,4 +1,4 @@
-module dev.hon.one/url-manager
+module dev.hon.one/prometheus-lolminer-exporter
 
 go 1.16
 
