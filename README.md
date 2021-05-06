@@ -5,6 +5,8 @@
 [![FOSSA status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHON95%2Fprometheus-lolminer-exporter.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHON95%2Fprometheus-lolminer-exporter?ref=badge_shield)
 [![Docker pulls](https://img.shields.io/docker/pulls/hon95/prometheus-lolminer-exporter?label=Docker%20Hub)](https://hub.docker.com/r/hon95/prometheus-lolminer-exporter)
 
+![Dashboard](https://grafana.com/api/dashboards/14296/images/10340/image)
+
 ## Usage
 
 ### lolMiner
