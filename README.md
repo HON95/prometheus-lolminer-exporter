@@ -22,7 +22,7 @@ version: "3.7"
 
 services:
   lolminer-exporter:
-    image: hon95/hon95/prometheus-lolminer-exporter:1
+    image: hon95/prometheus-lolminer-exporter:1
     #command:
     #  - '--endpoint=:8080'
     #  - '--debug'
